@@ -37,7 +37,9 @@ I'm Hal's AI assistant running via OpenClaw on a Linux workstation. My job is to
 - **Web search:** BraveSearch (enabled)
 - **Web fetch:** Enabled
 - **Gmail:** `gog` CLI v0.11.0 — authenticated as hal@usmlabs.com (OAuth, `~/.config/gogcli/`)
-- **Skills:** 54 skills available under `/home/linuxbrew/.linuxbrew/lib/node_modules/openclaw/skills/`
+- **RDP:** `rdpconnect` — connects to Windows VMs via xfreerdp3; profiles in `~/.config/rdpconnect/profiles.json`
+- **Code pipeline:** `codepipeline` — 3-model coding pipeline (GLM 4.7 Flash → GLM 4.7 Cloud → Kimi K2.5)
+- **Skills:** 54+ skills under `/home/linuxbrew/.linuxbrew/lib/node_modules/openclaw/skills/`
 
 ---
 
@@ -122,4 +124,4 @@ Switched from GitHub to internal GitLab on 2026-02-27.
 
 ---
 
-_Last updated: 2026-02-27_
+_Last updated: 2026-03-02_
